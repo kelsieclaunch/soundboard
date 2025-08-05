@@ -10,11 +10,11 @@
   background-color: black;
   justify-content: center;
   margin-bottom: 3.5rem;
+  margin: 0 auto;
 }
 
 .grid-item {
   background-color: white;
-  border-radius: 10px solid #333;
   aspect-ratio: 1 / 1; /* Ensures the item is a square */
   display: flex; /* For centering content within the square */
   justify-content: center;
