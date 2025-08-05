@@ -34,9 +34,8 @@
     transition: 0.1s;
 }
 
-footer {
+small {
   text-align: center;
-  background: black;
   color: white;
   font-size: 0.9rem;
   position: fixed;
@@ -46,13 +45,13 @@ footer {
   align-items: center;
 }
 
-footer a {
+small a {
   color: white;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-footer a:hover {
-  color: #0d8ddb;
+small a:hover {
+  color: white;
   text-decoration: underline;
 }
