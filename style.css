@@ -39,7 +39,7 @@ small {
   display: block;        /*  Block to respect text-align */
   text-align: center;
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.4rem;
   position: fixed;
   bottom: 0;
   width: 100%;           /* Makes centering reliable */
