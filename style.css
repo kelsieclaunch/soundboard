@@ -35,24 +35,32 @@
   transition: 0.1s;
 }
 
-small {
-  display: block;        /*  Block to respect text-align */
-  text-align: center;
-  color: white;
-  font-size: 0.4rem;
+footer {
   position: fixed;
   bottom: 0;
-  width: 100%;           /* Makes centering reliable */
-  user-select: none;
+  left: 0;
+  width: 100%;           /* Full width for centering */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  padding: 0.5rem;
+  background: transparent;
 }
 
-small a {
+footer small{
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+
+footer a {
   color: white;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-small a:hover {
+footer a:hover {
   color: white;
   text-decoration: underline;
 }
